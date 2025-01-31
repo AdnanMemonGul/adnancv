@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <style>
+    body {
+      background-color: gray;
+    }
+    .container {
+      width:90%;
+      max-width: 1200px;
+      background-color: #fff;
+      margin:10px auto;
+      /* height:800px; */
+      overflow: hidden;
+      /* padding:1px; */
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .leftdiv {
+      width: 42%;
+      height: 100%;
+      /* background-color: aqua; */
+      /* padding:1px; */
+      /* display: flex; */
+    }
+    .imgdiv {
+      width:250px;
+      height:250px;
+      border-radius: 50%;
+      overflow: hidden;
+      text-align: center;
+      /* border: 2px solid green; */
+      /* background-color: orange; */
+      margin:50px 0px 10px 35px;
+      /* margin-top: 60px; */
+      box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1),-2px -2px 5px 2px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 80%;
+      max-width: 200px;
+      /* background-color: orange; */
+      /* border-radius: 50%; */
+      /* display: block; */
+    }
+    .contact ul li {
+      list-style-type: none;
+      margin:8px;
+      display: flex;
+      /* justify-content: s; */
+      font-size: 17px;
+      align-items: center;
+    }
+    h3 {
+      margin: 25px;
+    }
+    ul{
+      /* display: flex; */
+      padding-left:15px;
+    }
+    .contact ul li span{
+      margin-right: 20px;
+      color: rgba(0,0,0,0.5);
+      /* width: 20px; */
+
+    }
+    .fa-solid{
+      font-size: 20px;
+    }
+    #onne {
+      font-size: 25px; /* Ensure same size for location icon */
+    }
+    .bdiv{
+      /* width:80px; */
+      height:7px;
+      background-color: skyblue;
+      border-radius: 10px;
+    }
+    .lname {
+      width: 40px;
+    }
+    #bard-1 {
+      width: 80px;
+    }
+    #bard-2 {
+      width: 70px;
+    }
+    #bard-3 {
+      width: 56px;
+    }
+    .cont1 ul li {
+      list-style-type:circle;
+      margin: 5px 0px 5px 25px;
+    }
+    .cont2 ul li {
+      display: flex;
+      align-items: center;
+      margin: 5px;
+    }
+    .cont2 ul li span {
+      width: 60px;
+    }
+    .cont2 ul {
+      padding-left: 20px;
+    }
+    .rightdiv {
+      background-color:skyblue;
+      width:58%;
+    }
+    h1 {
+      text-align: center;
+    }
+    .proe h3 {
+      background-color: white;
+      color:black;
+      padding:8px;
+      margin-bottom: 5px;
+    }
+    h4 {
+      text-decoration: underline;
+      margin:5px 5px 5px 30px;
+      /* text-align: center; */
+    }
+    h5 {
+      margin:5px 5px 5px 30px;
+      /* font-style: italic; */
+      font-size: 11px;
+      }
+    h5 span {
+      color: rgba(0,0,0,0.6);
+      /* width: 30px; */
+      margin-left: 10px;
+    }
+    .proe ul {
+      margin:5px 8px 5px 16px;
+    }
+    .proe .vers {
+      width: 50px;
+      height: 50px;
+      border-left: 2px solid white;
+      /* border-right: 2px solid white; */
+      margin-left: 10px;
+    }  
+
+    
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="leftdiv">
+      <div class="imgdiv">
+        <img src="/Adnan-removebg-preview.png">
+      </div>
+      <div class="contact">
+        <h3>CONTACT</h3>
+        <ul>
+          <li><span><i class="fa-solid fa-phone"></i></span>03423333333</li>
+          <li><span><i class="fa-solid fa-location-dot" id="onne"></i></span>Backerstreet, Naseem Nagar Abdullah Town Phae I, Block 3, Karachi</li>
+          <li><span><i class="fa-solid fa-envelope"></i></span>dashsherlock1122@gmail.com</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>CARRER</h3>
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, facilis!</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam amet accusamus quia architecto.</li>
+        </ul>
+      </div>
+      <div class="cont2">
+        <h3>LANGUAGES</h3>
+        <ul>
+          <li><span class="lname" id="lname1">Sindhi</span><div class="bdiv" id="bard-1"></div></li>
+          <li><span class="lname" id="lname2">Urdu</span><div class="bdiv" id="bard-2"></div></li>
+          <li><span class="lname" id="lname3">English</span><div class="bdiv" id="bard-3"></div></li>
+        </ul>
+      </div>
+      <div class="cont1">
+        <h3>SKILLS</h3>
+        <ul>
+          <li>Photoshop</li>
+          <li>Creativity</li>
+          <li>Windows10</li>
+          <li>Computer</li>
+          <li>book Keeping</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rightdiv">
+      <div class="name">
+        <h1>ADNAN GUL MEMON</h1>
+      </div>
+      <div class="proe">
+        <h3>PROFESSIONAL EXPERIENCE</h3>
+        <h4>HR ASSISTANT & BILLING OFFICER</h4>
+        <H5>DATA MEDICAL HOSPITAL<span class="vers" id="verss"></span><span>July-2023 to continue</span></H5>
+        <ul>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolo, reprehenderit Lorem ipsum dolor sit amet..</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elitee. Dolores, reprehenderit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, pariatur.</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, reprehenderit.</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Do reprehenderit Lorem, ipsum dolor..</li>
+        </ul>
+      </div>
+      <div class="proe">
+        <!-- <h3>PROFESSIONAL EXPERIENCE</h3> -->
+        <h4>ACCOUNTANT , MANAGER & COUNSELLOR</h4>
+        <H5>DATA MEDICAL HOSPITAL<span class="vers" id="verss"></span><span>Feb-2023 to July-23</span></H5>
+        <ul>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolo, reprehenderit Lorem ipsum dolor sit amet..</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elitee. Dolores, reprehenderit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, pariatur.</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit..</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, reprehenderit.</li>
+          <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Do reprehenderit Lorem, ipsum dolor..</li>
+        </ul>
+      </div>
+      <div class="proe">
+        <h3>EDUCATION</h3>
+        <h4>MASTERS IN PUBLIC ADMINISTRATION</h4>
+        <H5>University Of Jamshoro<span class="vers" id="verss"></span><span>2015-2016</span></H5>
+        <h4>Bachelors Of Commerce</h4>
+        <H5>University Of Jamshoro<span class="vers" id="verss"></span><span>2012-2015</span></H5>
+      </div>
+      <div class="proe">
+        <h3>CERTIFICATION</h3>
+        <h4>Multimedia Graphics</h4>
+        <H5>Szabtech Hyderabad<span class="vers" id="verss"></span><span>2011</span></H5>
+        <div class="cont1">
+          <ul>
+            <li>Photoshop</li>
+            <li>Micromedia Flash</li>
+            <li>Coreldraw</li>
+            <li>Micromedia Flash</li>
+            <li>Coreldraw</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
